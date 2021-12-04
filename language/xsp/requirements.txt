@@ -1,5 +1,6 @@
 apache-beam==2.22.0
-sqlparse==0.3.1
+sqlparse==0.4.2
 tf-slim==1.1.0
 timeout-decorator==0.4.1
 tqdm==4.49.0
+httplib2>=0.19.0 # not directly required, pinned by Snyk to avoid a vulnerability
