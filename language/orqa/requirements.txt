@@ -8,3 +8,4 @@ tornado~=4.5.1
 wikiextractor==0.1
 sentencepiece==0.1.91
 https://storage.googleapis.com/scann/releases/1.0.0/scann-1.0.0-cp37-cp37m-linux_x86_64.whl
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
